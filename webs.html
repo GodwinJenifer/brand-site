@@ -19,17 +19,23 @@
         flex-direction: row;
         justify-content: space-between;
         padding: 20px;
+                        box-shadow:
+    8px 8px 16px #bebebe,
+   -8px -8px 16px #ffffff;
+   background-color: rgb(169, 220, 226);
+
+    
     }
     .logo{
-        width: 100px;
+        width: 50px;
         
     }
-    .ul li{
+    .ul .i{
         display: inline-block;
         cursor: pointer;
 
     }
-li{
+.i{
     text-decoration: none;
     padding: 20px;
     font-weight: 10px;
@@ -37,8 +43,9 @@ li{
     transition: 0.5s;
 
 }
-li:hover{
+.i:hover{
     color: orangered;
+    font-size: 1.8rem;
 }
     .but{
         margin-top: 15px;
@@ -50,8 +57,12 @@ li:hover{
    box-shadow:
     8px 8px 16px #bebebe,
    -8px -8px 16px #ffffff;
+   transition: 1s;
 
 
+    }
+    .but:hover{
+        background-color: rgb(255, 255, 255);
     }
     .head{
         margin-top: 70px;
@@ -60,8 +71,16 @@ li:hover{
     }
      .h2{
         margin-top: -20px;
-        padding: 100px;
+        padding: 50px;
+        margin-left: 40px;
+        transition: 0.5s;
         
+    }
+    .h2:hover{
+        border: 1px solid black;
+                 box-shadow:
+    8px 8px 16px #000000,
+   -8px -8px 16px #000000;
     }
     .mt{
         padding: 2px;
@@ -93,6 +112,12 @@ li:hover{
 
     
     }
+    .star:hover{
+        background-color: rgb(255, 255, 255);
+              box-shadow:
+    8px 8px 16px #000000,
+   -8px -8px 16px #000000;
+    }
     .image{
         width:  800px;
         height: 400px;
@@ -103,8 +128,15 @@ li:hover{
         padding: 100px;
         /* margin-top: 300px; */
     }
+
     .s1{
         margin-top: 150px;
+    }
+         .s1:hover{
+        border: 1px solid black;
+                 box-shadow:
+    8px 8px 16px #000000,
+   -8px -8px 16px #000000;
     }
     .s1 .h4{
         
@@ -134,18 +166,144 @@ li:hover{
     8px 8px 16px #bebebe,
    -8px -8px 16px #ffffff;
     }
-   
+    .con2{
+        display: grid;
+        grid-template-columns: 500px 500px;
+        padding: 100px;
+    }
+    .ss2{
+        margin-left: 90px;
+    }
+    .ss2 .ht1{
+        font-weight: 140px;
+        font-size: 2.5rem;
+        padding: 10px;
+        display: inline-block;
+    }
+    .ss2 .pppp{
+        margin-top: 10px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+
+    }
+    .ss2 .b{
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 20px;
+        
+        border:none;
+                  box-shadow:
+    8px 8px 16px #bebebe,
+   -8px -8px 16px #ffffff;
+
+    }
+    .ss2 .bb2{
+       background-color:orangered;
+    }
+    .ss2 .bb{
+        margin-left: 20px;
+        background-color: none;
+    }
+    .fin{
+        display: grid;
+        grid-template-columns: 300px 300px 300px 300px;
+        padding: 10px;
+        background-color: rgb(3, 86, 95);
+    }
+    .fin .pro{
+        padding: 20px;
+        color: blanchedalmond;
+    }
+    .pro .h1{
+        margin-bottom: 30px;
+    }
+    .pro .yy{
+        margin-bottom: 10px;
+        color: rgb(193, 192, 189);
+    }
+    .pro .f{
+        padding: 10px;
+        border-radius: 50%;
+        border: none;
+        margin-right: 10px;
+        font-size: 1.0rem;
+        font-weight: bold;
+        background-color: rgb(106, 172, 237);
+
+    }
+    .ser .serul{
+        list-style: none;
+         color: rgb(193, 192, 189);
+    }
+    .ser .serh{
+         margin-bottom: 20px;
+        margin-bottom: 20px;
+        margin-left: -10px;
+        font-size: 1.6rem;
+    }
+    .ser .serli{
+      padding: 5px;
+      
+    }
+     .q .qul{
+        list-style: none;
+        color: blanchedalmond;
+    }
+    .q .hq{
+        margin-bottom: 20px;
+        margin-left: -10px;
+        font-size: 1.6rem;
+    }
+    .q .qli{
+      padding: 5px;
+       color: rgb(193, 192, 189);
+      
+    }
+    .new .newh{
+        margin-bottom: 20px;
+        margin-left: -10px;
+        font-size: 1.6rem;
+        color: blanchedalmond;
+    }
+    .new .newp{
+        margin-bottom: 10px;
+        color: blanchedalmond;
+    }
+    .new .kuttynew{
+        display: flex;
+        flex-direction: column;
+    }
+    .new .newinput{
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        width: 200px;
+        margin-right: 10px;
+    }
+    .kuttynew .sub{
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: orangered;
+        color: white;
+    }
+     .kuttynew .sub:hover{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+
 </style>
 <body>
     <div class="con">
         <img src="https://img.freepik.com/free-vector/abstract-company-logo_53876-120501.jpg?semt=ais_user_personalization&w=740&q=80" alt="" class="logo">
     <nav class="nav">
         <ul class="ul">
-            <li>Home</li>
-            <li>About</li>
-            <li>Service</li>
-            <li>Contct uS</li>
-            <li>BlogS</li>
+            <li class="i">Home</li>
+            <li class="i">About</li>
+            <li class="i">Services</li>
+            <li class="i">Contact</li>
+            <li class="i">Blog</li>
         </ul>
     </nav>
     <button class="but"> Sing in </button>
@@ -163,5 +321,54 @@ li:hover{
          <button class="read"> Read More</button></div>
           <div class="s2"><img src="https://img.freepik.com/free-photo/confident-business-people-diversity-teamwork-concept_53876-128969.jpg?semt=ais_user_personalization&w=740&q=80" alt=""></div>
       </article>
+      <div class="con2">
+        <div class="ss1">
+       <img src="https://m.media-amazon.com/images/I/81HznWNJPnL._AC_SL1500_.jpg" alt="" width="400px"></div>
+       <div class="ss2">
+        <h2 class="ht1">Product Delevery Now</h2>
+        <p class="pppp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quae, magni sint nam accusantium amet nemo et cum! Autem perferendis at eius quas non similique debitis necessitatibus aut voluptates aperiam?</p>
+        <button class="b bb2">Buy Now</button>  <button class="b bb">Buy Now</button>
+       </div>
+      </div>
+      <div class="fin">
+        <div class="pro">
+            <h1 class="h1"> ProCompany</h1>
+            <p class="yy"> innovative solutions for modern businesses,
+                 We turn ideas into reality</p>
+                 <button class="f"> F </button>
+                 <button class="f"> t </button>
+                 <button class="f"> in </button>
+                 <button class="f"> ig </button>
+
+        </div>
+        <div class="q">
+            <ul class="qul">
+                <h1 class="hq"> Quick Links</h1>
+                <li class="qli">Home</li>
+                
+                <li class="qli">Features</li>
+                <li class="qli">About</li>
+                <li class="qli">Services</li>
+                <li class="qli">Contact</li>
+            </ul>
+        </div>
+        <div class="ser">
+            <ul class="serul">
+                <h1 class="serh"> Services</h1>
+                <li class="serli">Web Development</li>
+                <li class="serli">Mobile Development</li>
+                <li class="serli">UI/UX Design</li>
+                <li class="serli">Marketing</li>
+                <li class="serli">Consulting</li>
+            </ul>
+        </div>
+        <div class="new">
+            <h1 class="newh"> Newsletter</h1>
+            <p class="newp"> subcribe to get updates on our last offers!</p>
+            <div class="kuttynew">
+            <input type="text" placeholder="Your email" class="newinput">
+            <button class="sub"> Subcribe</button></div>
+        </div>
+      </div>
 </body>
 </html>
